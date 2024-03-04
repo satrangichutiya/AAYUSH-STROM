@@ -10,8 +10,8 @@ HELP_STRING = f"""
 
 **ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ꜱᴛᴏʀᴍ](https://github.com/VARC9210/STORM)** ✨
 
-**ᴄʜᴀɴɴᴇʟ: [ᴅᴇᴠɪʟ ᴛᴇᴄʜ 🇮🇳](https://t.me/DEVIL_TECCH)**
-**ꜱᴜᴘᴘᴏʀᴛ: [ᴅᴇᴠɪʟ ᴄʜᴀᴛᴢ 🇮🇳](https://t.me/DEVIL_CHATZ)**
+**ᴄʜᴀɴɴᴇʟ: [ᴅᴇᴠɪʟ ᴛᴇᴄʜ 🇮🇳](https://t.me/STORM_TECHH)**
+**ꜱᴜᴘᴘᴏʀᴛ: [ᴅᴇᴠɪʟ ᴄʜᴀᴛᴢ 🇮🇳](https://t.me/STORM_CHATZ)**
 """
 HELP_BUTTON = [
     [
@@ -23,7 +23,7 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
     [
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/DEVIL_CHATZ")
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/STORM_CHATZ")
     ]
   ]
 
@@ -211,7 +211,7 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
               [
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/DEVIL_CHATZ")
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/STORM_CHATZ")
               ]
             ]
           )
