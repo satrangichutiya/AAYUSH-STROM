@@ -4,7 +4,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 START_OP = [
     [
         Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/Kexx_XD"),
-        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/DEVIL_CHATZ"),
+        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/STORM_CHATZ"),
     ],
     [
         Button.url(
@@ -13,7 +13,7 @@ START_OP = [
     ],
     [
         Button.url("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", "https://github.com/VARC9210/STORM"),
-        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/DEVIL_TECCH"),
+        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/STORM_TECHH"),
     ],
 ]
 
