@@ -33,7 +33,7 @@ async def start(event):
         AltBot = await event.client.get_me()
         bot_name = AltBot.first_name
         bot_id = AltBot.id
-        TEXT = f"**ʜᴇʏ 🥀{event.sender.first_name}❤️\n\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n"
+        TEXT = f"**ʜᴇʏ 🥀{event.sender.first_name}❤️**\n\n\**nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n"
         TEXT += f"➖➖➖➖➖➖➖➖➖➖➖➖\n"
         TEXT += f"» **ꜱᴇɴꜱᴇɪ 🫂: [⏤͟͞〲ᴅᴇᴠɪʟ](https://t.me/KANU_XD)**\n"
         TEXT += f"» **ꜱᴛᴏʀᴍ ⚙️:** `3.0` \n"
