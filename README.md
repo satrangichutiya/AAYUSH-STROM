@@ -5,7 +5,7 @@
 <p align="center"><a href="https://t.me/UNI_INDIA_0000"></a></p>
 
 <p align="center">
-  <img src="./LOGO.jpg" alt="Logo">
+  <img src="./Storm.jpeg" alt="Logo">
 </p>
 
 <p align="center">──「 𝑺 𝑻 𝑶 𝑹 𝑴 🥀」──</p>
