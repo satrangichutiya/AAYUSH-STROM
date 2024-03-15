@@ -34,11 +34,11 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ 🥀{event.sender.first_name}❤️**\n\n**ɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n"
-        TEXT += f"➖➖➖➖➖➖➖➖➖➖➖➖\n"
+        TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
         TEXT += f"» **ꜱᴇɴꜱᴇɪ 🫂: [⏤͟͞〲ᴅᴇᴠɪʟ](https://t.me/KANU_XD)**\n"
         TEXT += f"» **ꜱᴛᴏʀᴍ ⚙️:** `3.0` \n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ 🐍:** `3.11` \n"
-        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ 🔰:** `{__version__}`\n➖➖➖➖➖➖➖➖➖➖➖➖"
+        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ 🔰:** `{__version__}`\n➖➖➖➖➖➖➖➖➖➖➖"
         await event.client.send_file(
             event.chat_id,
             "https://graph.org/file/5d4a2dbf4f196fcdfe4d2.mp4",
