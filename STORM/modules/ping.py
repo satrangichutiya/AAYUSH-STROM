@@ -21,5 +21,5 @@ async def ping(e):
         start = datetime.now()
         altron = await e.reply(f"🌩")
         end = datetime.now()
-        mp = (end - start).microseconds / 1000
+        mp = (end - start).microseconds / 10000
         await altron.edit(f"ꜱ ᴛ ᴏ ʀ ᴍ 🥀\nᴛʜᴇ ᴄᴀʟᴍ ʙᴇꜰᴏʀᴇ ᴛʜᴇ ꜱᴛᴏʀᴍ ⚡\n» `{mp} ᴍꜱ`")
