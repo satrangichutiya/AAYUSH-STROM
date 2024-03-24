@@ -39,7 +39,9 @@ async def start(event):
         TEXT += f"» **ꜱᴛᴏʀᴍ ⚙️:** `3.0` \n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ 🐍:** `3.11` \n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ 🔰:** `{event.client.__version__}`\n➖➖➖➖➖➖➖➖➖➖➖"
-        await event.respond(
-            TEXT,
-            buttons=START_OP
-        )
+        await event.client.send_file(
+                    event.chat_id,  
+                    "https://graph.org/file/9b43d66ff422d98f6b56e.jpg",
+                    caption=TEXT, 
+                    buttons=START_OP
+                )
