@@ -8,7 +8,7 @@ async def promote_sudo(event, target):
     Heroku = heroku3.from_key(HEROKU_API_KEY)
     sudousers = getenv("SUDO_USERS", default="")
 
-    ok = await event.reply("» ᴘʀᴏᴍᴏᴛɪɴɢ ᴜꜱᴇʀ ɪɴ ꜱᴜᴅᴏ 🫂 ...")
+    ok = await event.reply("» ᴘʀᴏᴍᴏᴛɪɴɢ ᴜꜱᴇʀ ɪɴ ꜱᴜᴅᴏ 🫂...")
     
     if not HEROKU_APP_NAME:
         await ok.edit("`[HEROKU]:`\nPlease Setup Your **HEROKU_APP_NAME**")
@@ -21,7 +21,7 @@ async def promote_sudo(event, target):
         await ok.edit("ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱ ᴀʟʀᴇᴀᴅʏ ɪɴ ꜱᴜᴅᴏ ʟɪꜱᴛ 💕 !!")
     else:
         newsudo = f"{sudousers} {target}".strip()
-        await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» `ʀᴇꜱᴛᴀʀᴛɪɴɢ ⌛ ...`")
+        await ok.edit(f"» **ɴᴇᴡ ꜱᴜᴅᴏ ᴜꜱᴇʀ**: `{target}`\n» ʀᴇꜱᴛᴀʀᴛɪɴɢ ⌛...")
         heroku_var["SUDO_USERS"] = newsudo
 
 async def addsudo(event):
@@ -42,7 +42,7 @@ async def sudolist(event):
         if sudousers:
             await event.reply("» **SUDO USERS LIST:**\n" + sudousers)
         else:
-            await event.reply("» **SUDO USERS LIST IS EMPTY.**")
+            await event.reply("» **ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ʟɪꜱᴛ ɪꜱ ᴇᴍᴘᴛʏ**")
     elif event.sender_id in SUDO_USERS:
         await event.reply("» ꜱʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ 🔰 ")
 
