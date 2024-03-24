@@ -4,6 +4,8 @@ import asyncio
 import logging
 import importlib
 import urllib3
+
+
 from pathlib import Path
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
@@ -20,7 +22,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["STORM.modules." + plugin_name] = load
-    print("ꜱᴛᴏʀᴍ ʜᴀꜱ ɪᴍᴘᴏʀᴛᴇᴅ" + plugin_name)
+    print("Storm has Imported " + plugin_name)
 
 
 files = glob.glob("STORM/modules/*.py")
@@ -30,7 +32,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("ꜱᴛᴏʀᴍ ɪꜱ ᴅᴇᴘʟᴏʏᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ 🫧")
+print("\n𝐁𝐨𝐭𝐬 𝐃𝐞𝐩𝐥𝐨𝐲𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲")
 
 
 async def main():
