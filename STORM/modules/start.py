@@ -35,13 +35,13 @@ async def start(event):
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ 🥀{event.sender.first_name}❤️**\n\n**ɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n"
         TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
-        TEXT += f"» **ꜱᴇɴꜱᴇɪ 🫂: [⏤͟͞〲ᴅᴇᴠɪʟ](https://t.me/KANU_XD)**\n"
+        TEXT += f"» **ꜱᴇɴꜱᴇɪ 🫂: [⏤͟͞〲ᴋᴇx](https://t.me/kexx_xd)**\n"
         TEXT += f"» **ꜱᴛᴏʀᴍ ⚙️:** `3.0` \n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ 🐍:** `3.11` \n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ 🔰:** `{event.client.__version__}`\n➖➖➖➖➖➖➖➖➖➖➖"
         await event.client.send_file(
                     event.chat_id,  
-                    "https://graph.org/file/9b43d66ff422d98f6b56e.jpg",
+                    "",
                     caption=TEXT, 
                     buttons=START_OP
                 )
