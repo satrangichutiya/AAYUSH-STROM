@@ -24,7 +24,6 @@ START_OP = [
 @X5.on(events.NewMessage(pattern="/start"))
 @X6.on(events.NewMessage(pattern="/start"))
 @X7.on(events.NewMessage(pattern="/start"))
-@X7.on(events.NewMessage(pattern="/start"))
 @X8.on(events.NewMessage(pattern="/start"))
 @X9.on(events.NewMessage(pattern="/start"))
 @X10.on(events.NewMessage(pattern="/start"))
