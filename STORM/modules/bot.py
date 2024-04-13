@@ -35,17 +35,17 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "ꜱ ᴛ ᴏ ʀ ᴍ"
-PIC = "https://graph.org/file/5d4a2dbf4f196fcdfe4d2.mp4"
+PIC = "https://graph.org/file/fb1ae9fa7f75d73efb5f2.jpg"
 Alivemsg = "ꜱᴛᴏʀᴍ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 
-TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ꜱᴛᴏʀᴍ ɪꜱ ᴀʟɪᴠᴇ • ㅤㅤㅤ\n"
+TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ɪꜱ ᴀʟɪᴠᴇ • ㅤㅤㅤ\n"
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤ ʙᴏᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ‌🪽\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
 TEXT += f"**• ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** 🐍: `3.11.3`\n"
 TEXT += f"**• ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ** ⚙️: `M3.0`\n"
-TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ꜱᴛᴏʀᴍ ᴄʜᴀᴛᴢ 🥀](https://t.me/STORM_CHATZ)**\n"
-TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ꜱᴛᴏʀᴍ ᴛᴇᴄʜ 🥀](https://t.me/STORM_TECHH)**\n"
-TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [ᴋᴇx 🥀](https://t.me/kexx_XD)**\n"
+TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/HOD_AYUSH_PYROGRAM_CLIENT)**\n"
+TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/HOD_AYUSH_PYROGRAM_CLIENT)**\n"
+TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [AYUSH 🥀](https://t.me/HOD_AYUSH_PYROGRAM_CLIENT)**\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -65,8 +65,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/rasedidstore"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/+dKGCo7oumwYwZDNl")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/HOD_AYUSH_PYROGRAM_CLIENT"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/HOD_AYUSH_PYROGRAM_CLIENT")
         ],
         ]
         )
@@ -138,7 +138,7 @@ async def logs(KEX):
         await asyncio.sleep(1)
 
         try:
-            await X1.send_file(KEX.chat_id, "ʟᴏɢꜱ.ᴛxᴛ", caption=f"⚡ **ꜱᴛᴏʀᴍ ʙᴏᴛ ʟᴏɢꜱ 🍷** ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ⌛:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
+            await X1.send_file(KEX.chat_id, "ʟᴏɢꜱ.ᴛxᴛ", caption=f"⚡ **ʙᴏᴛ ʟᴏɢꜱ 🍷** ⚡\n  » **ᴛɪᴍᴇ ᴛᴀᴋᴇɴ ⌛:** `{ms} ꜱᴇᴄᴏɴᴅꜱ`")
             await fetch.delete()
         except Exception as e:
             await fetch.edit(f"**ᴇʀᴏᴏʀ:** {str(e)}")
@@ -193,7 +193,7 @@ async def ping(e):
         KEX = await e.reply(f"🌩")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await KEX.edit(f"ꜱ ᴛ ᴏ ʀ ᴍ 🥀\nᴛʜᴇ ᴄᴀʟᴍ ʙᴇꜰᴏʀᴇ ᴛʜᴇ ꜱᴛᴏʀᴍ ⚡\n» `{mp} ᴍꜱ`") 
+        await KEX.edit(f"ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ⚡\n» `{mp} ᴍꜱ`") 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
 @X2.on(events.NewMessage(incoming=True, pattern=r"\%ssudo(?: |$)(.*)" % hl))
