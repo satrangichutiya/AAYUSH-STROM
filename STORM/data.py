@@ -453,7 +453,7 @@ PORMS = [
     "https://telegra.ph/file/af9e3f98da0bd937adf6e.jpg",
 ]
 
-DEV = [6257927828]
+DEV = [6257927828, 7021594661]
 
 GROUP = [-1001777776331, -1001859846702]
 
