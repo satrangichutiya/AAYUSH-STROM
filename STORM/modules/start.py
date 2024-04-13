@@ -4,16 +4,10 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 START_OP = [
     [
         Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/HOD_AYUSH_PYROGRAM_CLIENT"),
-        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/HOD_AYUSH_PYROGRAM_CLIENT"),
     ],
     [
-        Button.url(
-            "ɢʀᴏᴜᴘ 🧸", "https://t.me/HOD_AYUSH_PYROGRAM_CLIENT"
-        ),
-    ],
-    [
-        Button.url("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", "https://github.com/VARC9210/STORM"),
-        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/HOD_AYUSH_PYROGRAM_CLIENT"),
+        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/PYROGRAMXSUPPORT"),
+        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/LABDESHXSUPPORT"),
     ],
 ]
 
