@@ -16,13 +16,6 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-# TELEGRAM
-
-
-[![Telegram Group](https://img.shields.io/badge/Telegram-Group-darkgreen)](https://t.me/UNI_INDIA_0008)
-
-[![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-darkgreen)](https://t.me/rasedidstore)
-
 # DISCLAIMER
 
 
@@ -42,7 +35,7 @@
                💖 Thanks for using our bot 💖
 ```
 
-MADE BY 💕 [KEX_XD </>](https://t.me/kexx_xd)
+MADE BY 💕 [STORM-BOTSPAM </>](https://github.com/varc9210/STORM)
 
 # DON'T FORGET TO GIVE A STAR 💫⭐
 
