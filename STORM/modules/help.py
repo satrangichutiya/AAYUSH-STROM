@@ -1,25 +1,3 @@
-#MIT License
-
-#Copyright (c) 2024 ᴋᴜɴᴀʟ [AFK]
-
-#Permission is hereby granted, free of charge, to any person obtaining a copy
-#of this software and associated documentation files (the "Software"), to deal
-#in the Software without restriction, including without limitation the rights
-#to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-#copies of the Software, and to permit persons to whom the Software is
-#furnished to do so, subject to the following conditions:
-
-#The above copyright notice and this permission notice shall be included in all
-#copies or substantial portions of the Software.
-
-#THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-#IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-#FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-#AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-#LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-#OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-#SOFTWARE.
-
 from telethon import events, Button
 
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
@@ -28,12 +6,9 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 HELP_STRING = f"""
 ✨ **ʙᴏᴛ ʜᴇʟᴘ** ✨
 
-**[ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/Kexx_XD) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
+**[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/HOD_AYUSH_PYROGRAM_CLIENT) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
 
-**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ꜱᴛᴏʀᴍ](https://github.com/VARC9210/STORM)** ✨
-
-**ᴄʜᴀɴɴᴇʟ: [ꜱᴛᴏʀᴍ ᴛᴇᴄʜ 🇮🇳](https://t.me/STORM_TECHH)**
-**ꜱᴜᴘᴘᴏʀᴛ: [ꜱᴛᴏʀᴍ ᴄʜᴀᴛᴢ 🇮🇳](https://t.me/STORM_CHATZ)**
+**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/HOD_AYUSH_PYROGRAM_CLIENT)** ✨
 """
 HELP_BUTTON = [
     [
@@ -44,9 +19,6 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀꜱ •", data="extra"),
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
     ],
-    [
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/STORM_CHATZ")
-    ]
   ]
 
 
@@ -125,7 +97,7 @@ extra_msg = f"""
 🔸 {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ)
 🔸 {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 
-**© @KKEX_XD**
+**© @HOD_AYUSH_PYROGRAM_CLIENT**
 """
 
 
@@ -137,7 +109,7 @@ owner_msg = f"""
 👨‍💻 ᴜꜱᴀɢᴇ :
 🔸 {hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-**© @KKEX_XD**
+**© @HOD_AYUSH_PYROGRAM_CLIENT**
 """      
           
 raid_msg = f"""
@@ -161,7 +133,7 @@ raid_msg = f"""
 🔸 {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 🔸 {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ)
 
-**© @KKEX_XD**
+**© @HOD_AYUSH_PYROGRAM_CLIENT**
 """
 
 spam_msg = f"""
@@ -204,7 +176,7 @@ spam_msg = f"""
 🔸 {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 🔸 {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @KKEX_XD**
+** © @HOD_AYUSH_PYROGRAM_CLIENT**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -230,13 +202,10 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀꜱ •", data="extra"),
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner")
               ],
-              [
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/STORM_CHATZ")
-              ]
             ]
           )
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @KKEX_XD", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -255,7 +224,7 @@ async def help_spam(event):
               buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
               ) 
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @KKEX_XD", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -274,7 +243,7 @@ async def help_raid(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
           )
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @KKEX_XD", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -293,4 +262,4 @@ async def help_extra(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
             )
     else:
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @KKEX_XD", cache_time=0, alert=True)
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @HOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
