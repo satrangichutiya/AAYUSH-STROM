@@ -13,7 +13,7 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "ꜱ ᴛ ᴏ ʀ ᴍ"
-PIC = "https://graph.org/file/fb1ae9fa7f75d73efb5f2.jpg"
+PIC = "https://graph.org/file/ddcdc014dadd0d9d2b345.jpg"
 Alivemsg = "ꜱᴛᴏʀᴍ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ɪꜱ ᴀʟɪᴠᴇ • ㅤㅤㅤ\n"
