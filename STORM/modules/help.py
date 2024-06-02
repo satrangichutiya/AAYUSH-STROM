@@ -6,7 +6,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 HELP_STRING = f"""
 ✨ **ʙᴏᴛ ʜᴇʟᴘ** ✨
 
-**[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/GOD_AYUSH_PYROGRAM_CLIENT) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
+**[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/GOD_AYUSH_PYROGRAM_V1) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
 
 **ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/GOD_AYUSH_PYROGRAM_V1)** ✨
 """
