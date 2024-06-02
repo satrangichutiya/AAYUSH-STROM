@@ -8,7 +8,7 @@ HELP_STRING = f"""
 
 **[ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/GOD_AYUSH_PYROGRAM_CLIENT) ʜᴇʟᴘ ᴍᴇɴᴜ** 🥀
 
-**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/GOD_AYUSH_PYROGRAM_CLIENT)** ✨
+**ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [ᴘʏʀᴏɢʀᴀᴍ](https://t.me/GOD_AYUSH_PYROGRAM_V1)** ✨
 """
 HELP_BUTTON = [
     [
@@ -176,7 +176,7 @@ spam_msg = f"""
 🔸 {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 🔸 {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)
 
-** © @GOD_AYUSH_PYROGRAM_CLIENT**
+** © @GOD_AYUSH_PYROGRAM_V1**
 """                                
            
 @X1.on(events.CallbackQuery(pattern=r"help_back"))
@@ -205,7 +205,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -224,7 +224,7 @@ async def help_spam(event):
               buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
               ) 
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -243,7 +243,7 @@ async def help_raid(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
           )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -262,4 +262,4 @@ async def help_extra(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],],
             )
     else:
-        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_CLIENT", cache_time=0, alert=True)
+        await event.answer("ᴘᴇʜʟᴇ ᴀʏᴜꜱʜ ᴘᴀᴘᴀ ꜱᴇ ꜱᴜᴅᴏ ʟᴇʟᴇ ʟᴏʟᴜ @GOD_AYUSH_PYROGRAM_V1", cache_time=0, alert=True)
