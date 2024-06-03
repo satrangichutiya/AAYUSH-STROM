@@ -3,11 +3,11 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/GOD_AYUSH_PYROGRAM_V1"),  # Corrected URL
+        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/GOD_OP_PYROGRAM_V1"),  # Corrected URL
     ],
     [
-        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/AYUSHXROBOT_HUB"),
-        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/AYUSHXBOTS_HUB"),
+        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/AYUSHXROBOT_HUB1"),
+        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/AYUSHXBOTS_HUB1"),
     ],
 ]
 
