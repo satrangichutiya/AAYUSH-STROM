@@ -21,9 +21,9 @@ TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌�
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
 TEXT += f"**• ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** 🐍: `3.11.3`\n"
 TEXT += f"**• ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ** ⚙️: `M3.0`\n"
-TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/PYROGRAMXSUPPORT)**\n"
-TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/LABDESHXSUPPORT)**\n"
-TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [AYUSH 🥀](https://t.me/GOD_AYUSH_PYROGRAM_CLIENT)**\n"
+TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/https://t.me/AYUSHXROBOT_HUB1)**\n"
+TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/AYUSHXROBOT_HUB11)**\n"
+TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [AYUSH 🥀](https://t.me/GOD_OP_PYROGRAM_CLIENT)**\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -43,8 +43,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/LABDESHXSUPPORT"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/PYROGRAMXSUPPORT")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/AYUSHXROBOT_HUB11"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/AYUSHXROBOT_HUB1")
         ],
         ]
         )
