@@ -3,7 +3,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_OP = [
     [
-        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "@GOD_AYUSH_PYROGRAM_V1"),
+        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/GOD_AYUSH_PYROGRAM_V1"),  # Corrected URL
     ],
     [
         Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/AYUSHXROBOT_HUB"),
@@ -26,8 +26,8 @@ async def start(event):
         KEX = await event.client.get_me()
         bot_name = KEX.first_name
         bot_id = KEX.id
-        TEXT = f"**ʜᴇʏ [{event.sender.first_name}]\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n➖➖➖➖➖➖➖➖➖➖➖\n"
-        TEXT += f"» **ꜱᴇɴꜱᴇɪ : [ꜱᴇɴꜱᴇɪ](https://t.me/@GOD_AYUSH_PYROGRAM_V1)**\n"
+        TEXT = f"**ʜᴇʏ [{event.sender.first_name}]\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})**\n➖➖➖➖➖➖➖➖➖➖➖\n"
+        TEXT += f"» **ꜱᴇɴꜱᴇɪ : [ꜱᴇɴꜱᴇɪ](https://t.me/GOD_AYUSH_PYROGRAM_V1)**\n"  # Corrected URL
         TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ :** `M1.0` \n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ :** `3.11` \n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ :** `{__version__}`\n➖➖➖➖➖➖➖➖➖➖➖"        
@@ -36,4 +36,5 @@ async def start(event):
                     "https://graph.org/file/fb1ae9fa7f75d73efb5f2.jpg",
                     caption=TEXT, 
                     buttons=START_OP
-                )
+        )
+        
