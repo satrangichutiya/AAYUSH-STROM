@@ -13,7 +13,7 @@ from os import execl, getenv
 from telethon.tl.functions.channels import LeaveChannelRequest
 
 pongg = "ꜱ ᴛ ᴏ ʀ ᴍ"
-PIC = "https://graph.org/file/ddcdc014dadd0d9d2b345.jpg"
+PIC = "https://telegra.ph/file/20e905f22c14c40d9bba7.jpg"
 Alivemsg = "ꜱᴛᴏʀᴍ x ꜱᴘᴀᴍ ʜᴇʀᴇ"
 
 TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌ㅤㅤㅤ • ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ ɪꜱ ᴀʟɪᴠᴇ • ㅤㅤㅤ\n"
@@ -21,9 +21,9 @@ TEXT = f"‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌‌�
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖\n"
 TEXT += f"**• ᴘʏᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** 🐍: `3.11.3`\n"
 TEXT += f"**• ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ** ⚙️: `M3.0`\n"
-TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/https://t.me/AYUSHXROBOT_HUB1)**\n"
-TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/AYUSHXROBOT_HUB11)**\n"
-TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [AYUSH 🥀](https://t.me/GOD_OP_PYROGRAM_CLIENT)**\n"
+TEXT += f"**• ɢʀᴏᴜᴘ 💫: [ɢʀᴏᴜᴘ 🥀](https://t.me/ll_DRAGON_XD_BOTS_ll)**\n"
+TEXT += f"**• ᴄʜᴀɴɴᴇʟ ✨: [ᴄʜᴀɴɴᴇʟ 🥀](https://t.me/ll_DRAGON_XD_SUPPORT_ll)**\n"
+TEXT += f"**• ꜱᴇɴꜱᴇɪ 🫂: [AYUSH 🥀](https://t.me/ll_DRAGON_XD_ll)**\n"
 TEXT += f"➖➖➖➖➖➖➖➖➖➖➖"
                                   
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%salive(?: |$)(.*)" % hl))
@@ -43,8 +43,8 @@ async def alive(event):
                                   caption=TEXT,
                                   buttons=[
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/AYUSHXROBOT_HUB11"),
-        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/AYUSHXROBOT_HUB1")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_DRAGON_XD_BOTS_ll"),
+        Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_DRAGON_XD_SUPPORT_ll")
         ],
         ]
         )
