@@ -10,7 +10,7 @@
     ],
     "repository": "https://github.com/kxunal1834/AAYUSH-STORM",
     "env": {
-      BOT_TOKEN": {
+      "BOT_TOKEN": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
         "required": true
