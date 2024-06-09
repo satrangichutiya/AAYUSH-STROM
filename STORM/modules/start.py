@@ -112,7 +112,7 @@ async def start(event):
 
         TEXT = f"ʜᴇʏ [{event.sender.first_name}]\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})\n➖➖➖➖➖➖➖➖➖➖➖\n"
 
-        TEXT += f"» ꜱᴇɴꜱᴇɪ : [⏤‌〲ᴋᴇx](@ll_DRAGON_XD_ll)\n"
+        TEXT += f"» ꜱᴇɴꜱᴇɪ : [⏤‌〲ᴋᴇx](ll_DRAGON_XD_ll)\n"
 
         TEXT += f"» ꜱᴛᴏʀᴍ : M3.0 \n"
 
