@@ -1,6 +1,6 @@
 {
     "name": "ᴘʏʀᴏɢʀᴀᴍ x ꜱᴘᴀᴍ",
-    "logo": "https://graph.org/file/fb1ae9fa7f75d73efb5f2.jpg",
+    "logo": "https://telegra.ph/file/20e905f22c14c40d9bba7.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -18,32 +18,32 @@
       "BOT_TOKEN2": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN3": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN4": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN5": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN6": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN7": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN8": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
@@ -53,22 +53,22 @@
       "BOT_TOKEN9": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN10": {
         "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
         "value": "",
-        "required": true
+        "required": false
       },
       "CMD_HNDLR": {
         "description": "ᴄᴜꜱᴛᴏᴍ ᴄᴏᴍᴍᴀɴᴅ ʜᴀɴᴅʟᴇʀ",
         "value": ".",
-        "required": false
+        "required": true
       },
       "SUDO_USERS": {
         "description": "ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ɪᴅ ꜱᴘᴀᴄᴇ ʙʏ ꜱᴘᴀᴄᴇ",
         "value": "6257927828",
-        "required": false
+        "required": true
       },
       "OWNER_ID": {
         "description": "ᴏᴡɴᴇʀ ɪᴅ",
