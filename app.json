@@ -68,7 +68,7 @@
       "SUDO_USERS": {
         "description": "ꜱᴜᴅᴏ ᴜꜱᴇʀꜱ ɪᴅ ꜱᴘᴀᴄᴇ ʙʏ ꜱᴘᴀᴄᴇ",
         "value": "6257927828",
-        "required": false
+        "required": true
       },
       "OWNER_ID": {
         "description": "ᴏᴡɴᴇʀ ɪᴅ",
@@ -83,7 +83,7 @@
       "HEROKU_APP_NAME": {
         "description": "ʏᴏᴜʀ ᴀᴘᴘ ɴᴀᴍᴇ ᴛᴏ ᴜᴘᴅᴀᴛᴇ ʏᴏᴜʀ ʙᴏᴛ",
         "value": "",
-        "required": false  
+        "required": true
       }
     },
   "buildpacks": [
