@@ -1,5 +1,4 @@
-# 🔥 GHOST BHAU OP BOT 🔥
-# Made by Aayush X Sor
+
 #MIT License 
  
 #Copyright (c) 2024 ᴋᴜɴᴀʟ [AFK] 
