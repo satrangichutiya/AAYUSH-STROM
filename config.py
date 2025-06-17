@@ -17,7 +17,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 # Owner & Sudo Setup
-OWNER_ID = int(getenv("OWNER_ID", default="123456789"))
+OWNER_ID = int(getenv("OWNER_ID", default="7680595441"))
 SUDO_USERS = [OWNER_ID]
 
 # ---------- CLIENTS ----------
