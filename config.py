@@ -22,30 +22,30 @@ SUDO_USERS = [OWNER_ID]
 
 # ---------- CLIENTS ----------
 BOT_TOKENS = [
-    getenv("BOT_TOKEN1", default=None),
-    getenv("BOT_TOKEN2", default=None),
-    getenv("BOT_TOKEN3", default=None),
-    getenv("BOT_TOKEN4", default=None),
-    getenv("BOT_TOKEN5", default=None),
-    getenv("BOT_TOKEN6", default=None),
-    getenv("BOT_TOKEN7", default=None),
-    getenv("BOT_TOKEN8", default=None),
-    getenv("BOT_TOKEN9", default=None),
-    getenv("BOT_TOKEN10", default=None),
+    getenv("BOT_TOKEN1"),
+    getenv("BOT_TOKEN2"),
+    getenv("BOT_TOKEN3"),
+    getenv("BOT_TOKEN4"),
+    getenv("BOT_TOKEN5"),
+    getenv("BOT_TOKEN6"),
+    getenv("BOT_TOKEN7"),
+    getenv("BOT_TOKEN8"),
+    getenv("BOT_TOKEN9"),
+    getenv("BOT_TOKEN10"),
 ]
 
 clients = []
-
-for i in range(10):
-    token = BOT_TOKENS[i]
+for i, token in enumerate(BOT_TOKENS):
     if token:
         try:
             client = TelegramClient(f"X{i+1}", API_ID, API_HASH).start(bot_token=token)
+            logging.warning(f"[X{i+1}] started successfully")
             clients.append(client)
         except Exception as e:
             logging.warning(f"[X{i+1}] failed to start: {e}")
             clients.append(None)
     else:
+        logging.warning(f"[X{i+1}] BOT_TOKEN{i+1} is not set.")
         clients.append(None)
 
 # Assign named clients
