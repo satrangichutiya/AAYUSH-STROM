@@ -31,16 +31,16 @@ from STORM.data import RAID, REPLYRAID, DEV, HRAID, BDAY
 from STORM.data import GROUP, PORMS
 
 
-@X1.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X2.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X3.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X4.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X5.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X6.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X7.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X8.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X9.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
-@X10.on(events.NewMessage(incoming=True, pattern=r"\%sabuse(?: |$)(.*)" % hl))
+@X1.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X2.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X3.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X4.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X5.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X6.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X7.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X8.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X9.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
+@X10.on(events.NewMessage(incoming=True, pattern=rf"\{hl}abuse(?: |$)(.*)"))
 async def abuse(e):
      if e.sender_id in SUDO_USERS:
         xraid = e.text.split(" ", 2)
