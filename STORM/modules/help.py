@@ -1,4 +1,4 @@
-🪷 ⃝⃪ ĐʀᴀɢᴏƝ bRo 🪷 ⃝⃪ ⛦⃕͜𝐱𝗗‌‌‏‌‌✨:
+GHOST BHAU
 #MIT License 
  
 #Copyright (c) 2024 ᴋᴜɴᴀʟ [AFK] 
