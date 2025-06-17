@@ -10,8 +10,8 @@ logging.basicConfig(
 )
 
 # API credentials
-API_ID = int(getenv("API_ID", default="123456"))
-API_HASH = getenv("API_HASH", default="your_api_hash_here")
+API_ID = int(getenv("API_ID", default="25742938"))
+API_HASH = getenv("API_HASH", default="b35b715fe8dc0a58e8048988286fc5b6")
 CMD_HNDLR = getenv("CMD_HNDLR", default="!")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
