@@ -29,12 +29,12 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDL
 HELP_STRING = f""" 
 ✨ ʙᴏᴛ ʜᴇʟᴘ ✨ 
  
-[Dragon ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/ll_DRAGON_XD_ll) ʜᴇʟᴘ ᴍᴇɴᴜ 🥀 
+[SATHYA ꜱᴘᴀᴍ ʙᴏᴛ](https://t.me/SATHYA_0P) ʜᴇʟᴘ ᴍᴇɴᴜ 🥀 
  
-ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [DRAGON](https://github.com/devgramop/AAYUSH-STROM/new/main/STORM/modules) ✨ 
+ʜᴇʟᴘ ᴍᴇɴᴜ ᴘᴏᴡᴇʀᴇᴅ ʙʏ [SATHYA](https://github.com/devgramop/AAYUSH-STROM/new/main/STORM/modules) ✨ 
  
-ᴄʜᴀɴɴᴇʟ: [](https://t.me/ll_DRAGON_XD_SUPPORT_ll) 
-ꜱᴜᴘᴘᴏʀᴛ: [🪷 ⃝⃪ ĐʀᴀɢᴏƝ bRo 🪷 ⃝⃪ ⛦⃕‌𝐱𝗗‌‌ ᴄʜᴀᴛ](https://t.me/ll_DRAGON_XD_SUPPORT_ll) 
+ᴄʜᴀɴɴᴇʟ: [](https://t.me/TEST_V21) 
+ꜱᴜᴘᴘᴏʀᴛ: [🪷 ⃝⃪ SATHYA bRo 🪷 ⃝⃪ ⛦⃕‌𝐱𝗗‌‌ ᴄʜᴀᴛ](https://t.me/TEST_V21) 
 """ 
 HELP_BUTTON = [ 
     [ 
@@ -46,7 +46,7 @@ HELP_BUTTON = [
       Button.inline("• ᴏᴡɴᴇʀ •", data="owner") 
     ], 
     [ 
-      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_DRAGON_XD_SUPPORT_ll") 
+      Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/TEST_V21") 
     ] 
   ] 
  
@@ -65,7 +65,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS: 
         try: 
           await event.client.send_file(event.chat_id, 
-              "https://telegra.ph/file/20e905f22c14c40d9bba7.jpg", 
+              "https://files.catbox.moe/jckm1q.jpg", 
               caption=HELP_STRING, 
               buttons=HELP_BUTTON 
               ) 
@@ -127,7 +127,7 @@ extra_msg = f"""
 🔸 {hl}ꜱʀᴀɪᴅ (ᴄᴏᴜɴᴛᴇʀ) (ᴜꜱᴇʀɴᴀᴍᴇ) 
 🔸 {hl}ꜱʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ)  
  
-© @ll_DRAGON_XD_ll 
+© @SATHYA_0P 
 """ 
  
  
@@ -139,7 +139,7 @@ owner_msg = f"""
 👨‍💻 ᴜꜱᴀɢᴇ : 
 🔸 {hl}ᴀᴅᴅꜱᴜᴅᴏ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
  
-© @ll_DRAGON_XD_ll 
+© @SATHYA_0P 
 """       
            
 raid_msg = f""" 
@@ -163,7 +163,7 @@ raid_msg = f"""
 🔸 {hl}ᴅʀʀᴀɪᴅ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 🔸 {hl}ᴅʀʀᴀɪᴅ (ᴜꜱᴇʀɴᴀᴍᴇ) 
  
-© @ll_DRAGON_XD_ll 
+© @SATHYA_0P 
 """ 
  
 spam_msg = f""" 
@@ -206,7 +206,7 @@ spam_msg = f"""
 🔸 {hl}ʙꜱᴘᴀᴍ (ᴄᴏᴜɴᴛꜱ) (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
 🔸 {hl}ʙꜱᴘᴀᴍ -ᴜ (ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏᴏɴᴇ) 
  
- © @ll_DRAGON_XD_ll 
+ © @SATHYA_0P 
 """                                 
             
 @X1.on(events.CallbackQuery(pattern=r"help_back")) 
@@ -233,12 +233,12 @@ async def helpback(event):
                 Button.inline("• ᴏᴡɴᴇʀ •", data="owner") 
               ], 
               [ 
-                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/ll_DRAGON_XD_SUPPORT_ll") 
+                Button.url("• ꜱᴜᴘᴘᴏʀᴛ •", "https://t.me/TEST_V21") 
               ] 
             ] 
           ) 
     else: 
-        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @ll_DRAGON_XD_ll", cache_time=0, alert=True) 
+        await event.answer("ɴᴏᴏʙ ! ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ꜱᴛᴏʀᴍ ꜱᴘᴀᴍ ʙᴏᴛꜱ !! @SATHYA_0P", cache_time=0, alert=True) 
  
  
 @X1.on(events.CallbackQuery(pattern=r"spam")) 
@@ -257,7 +257,7 @@ async def help_spam(event):
               buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],], 
               )  
     else: 
-        await event.answer("ABE SALE KHUD KA BOT BANA🤬 !! @ll_DRAGON_XD_ll", cache_time=0, alert=True) 
+        await event.answer("ABE SALE KHUD KA BOT BANA🤬 !! @SATHYA_0P", cache_time=0, alert=True) 
  
  
 @X1.on(events.CallbackQuery(pattern=r"raid")) 
@@ -277,7 +277,7 @@ async def help_raid(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],], 
           ) 
     else: 
-        await event.answer("ABE SALE KHUD KA BOT BANA🤬 ʙᴏᴛꜱ !! @ll_DRAGON_XD_ll", cache_time=0, alert=True) 
+        await event.answer("ABE SALE KHUD KA BOT BANA BC🤬 ʙᴏᴛꜱ !! @SATHYA_0P", cache_time=0, alert=True) 
  
  
 @X1.on(events.CallbackQuery(pattern=r"extra")) 
@@ -296,4 +296,4 @@ async def help_extra(event):
             buttons=[[Button.inline("🔙 ʙᴀᴄᴋ", data="help_back"),],], 
             ) 
     else: 
-        await event.answer("ABE SALE KHUD KA BOT BANA🤬 !! @ll_DRAGON_XD_ll", cache_time=0, alert=True)
+        await event.answer("ABE SALE KHUD KA BOT BANA TRRI MKC🤬 !! @SATHYA_0P", cache_time=0, alert=True)
