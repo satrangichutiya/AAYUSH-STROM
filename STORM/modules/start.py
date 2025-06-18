@@ -52,9 +52,9 @@ START_OP = [
 
     [
 
-        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/ll_DRAGON_XD_ll"),
+        Button.url("ꜱᴇɴꜱᴇɪ 🥀", "https://t.me/TEST_V21"),
 
-        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/ll_DRAGON_XD_SUPPORT_ll"),
+        Button.url("ꜱᴜᴘᴘᴏʀᴛ ✨", "https://t.me/TEST_V21"),
 
     ],
 
@@ -62,7 +62,7 @@ START_OP = [
 
         Button.url(
 
-            "ɢʀᴏᴜᴘ 🧸", "https://t.me/ll_DRAGON_XD_SUPPORT_ll"
+            "ɢʀᴏᴜᴘ 🧸", "https://t.me/TEST_V21"
 
         ),
 
@@ -70,9 +70,9 @@ START_OP = [
 
     [
 
-        Button.url("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", "https://github.com/devgramop/AAYUSH-STROM"),
+        Button.url("ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ❄️", "LAWDE SAALE TU KON? CHAL @SATHYA_0P SE MAANG REPO DE DEGA"),
 
-        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/ll_DRAGON_XD_SUPPORT_ll"),
+        Button.url("ᴄʜᴀɴɴᴇʟ ☁️", "https://t.me/TEST_V21"),
 
     ],
 
@@ -112,9 +112,9 @@ async def start(event):
 
         TEXT = f"ʜᴇʏ [{event.sender.first_name}]\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})\n➖➖➖➖➖➖➖➖➖➖➖\n"
 
-        TEXT += f"» ꜱᴇɴꜱᴇɪ : [⏤‌〲ᴋᴇx](https://t.me/ll_DRAGON_XD_ll)\n"
+        TEXT += f"» ꜱᴇɴꜱᴇɪ : [⏤‌〲SATHYA](https://t.me/SATHYA_0P)\n"
 
-        TEXT += f"» ꜱᴛᴏʀᴍ : M3.0 \n"
+        TEXT += f"» SATHYA SPAM : M3.0 \n"
 
         TEXT += f"» ᴘʏᴛʜᴏɴ : 3.11 \n"
 
